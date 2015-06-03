@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   console.log("Request for host " + request.headers.host);
-  response.send('Hello World!')
+  response.send('Hello World 2!')
 })
 
 app.listen(app.get('port'), function() {
