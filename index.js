@@ -6,9 +6,9 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   console.log("Request for host " + request.headers.host);
-  response.send('Hello World skdfbvsdf!')
+  response.send('Hello Startup Crush Test!')
 })
 
 app.listen(app.get('port'), function() {
-  console.log("Node app is running at localhost:" + app.get('port'))
+  console.log("Node app is running at localhost special for IT Coworking Hub:" + app.get('port'))
 })
