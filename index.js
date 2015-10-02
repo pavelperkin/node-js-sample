@@ -12,3 +12,5 @@ app.get('/', function(request, response) {
 app.listen(app.get('port'), function() {
   console.log(new Date + "Node app is running at localhost special for IT Coworking Hub:" + app.get('port'))
 })
+
+setInterval(function() { console.log(new Date) }, 60000)
