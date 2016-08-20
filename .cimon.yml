@@ -30,6 +30,6 @@ tests:
     - npm install
   service: nodejs
   folder: /app
-  cmd: 'echo "........"'
+  cmd: 'echo $?'
   env:
     - NODE_ENV=production
